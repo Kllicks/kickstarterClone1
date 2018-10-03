@@ -1,0 +1,41 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* html{
+    font-size: 30px;
+} */
+html, body {
+    padding: 0;
+    margin: 0;
+    /* set margin & padding to 0 so that elements stratch to edge of browser window */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,.7);
+}
+
+.header-text {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: baseline;
+    padding: 0 20px;
+    border-bottom: 1px solid black;
+}
+
+.header-text nav a {
+    text-decoration: none;
+    padding: 0 8px;
+    color: rgb(0,0,0,.7);
+}
+
+.logo-text {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(3, 71, 82);
+}
