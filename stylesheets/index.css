@@ -20,22 +20,28 @@ body {
     color: rgb(0,0,0,.7);
 }
 
-.header-text {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: baseline;
-    padding: 0 20px;
-    border-bottom: 1px solid black;
-}
-
-.header-text nav a {
-    text-decoration: none;
-    padding: 0 8px;
-    color: rgb(0,0,0,.7);
-}
-
 .logo-text {
     font-family: 'Fredoka One', cursive;
     color: rgb(3, 71, 82);
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(0,0,0,.2)
 }
+
+.top-nav{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.top-nav a {
+    text-decoration: none;
+    padding: 0 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,.7);
+    font-size: 15px;
+}
+
+
