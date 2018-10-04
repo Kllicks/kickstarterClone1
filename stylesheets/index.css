@@ -44,4 +44,31 @@ body {
     font-size: 15px;
 }
 
+.main-stories {
+    padding: 0 20px;
+}
 
+.main-nav {
+    padding-top: 40px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(0,0,0,.2);
+    padding-right: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,.7);
+    font-size: 16px;
+}
+
+.active-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.active-link h4 {
+    padding-right: 15px;
+    font-size: 24px;
+    font-weight: normal;
+}
