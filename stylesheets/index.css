@@ -69,6 +69,68 @@ body {
 
 .active-link h4 {
     padding-right: 15px;
+    padding-top: 20px;
     font-size: 24px;
     font-weight: normal;
+    margin: 0px;
 }
+
+.projects {
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgb(0,0,0,.9);
+}
+
+.featured-projects img {
+    width: 100%;
+}
+
+.featured-projects h5, h3{
+    margin: 0;
+    padding: 10px 0;
+}
+
+.featured-projects p {
+    margin: 0;
+}
+
+.mini-side-nav {
+    padding-top: 30px; 
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(0,0,0,.2);
+}
+
+.mini-side-nav a {
+    text-decoration: none;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,.7);
+    font-size: 16px;
+    padding-right: 8px;    
+}
+
+.other-stories div{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(0,0,0,.2);
+}
+
+.other-stories img{
+    width: 25%;
+    padding-right: 10px;
+}
+
+.other-stories a{
+    text-decoration: none;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,.7);
+    font-size: 14px;
+    word-wrap: break-word;
+    padding: 0px 10px;
+    /* width: 70%; */
+}
+
+/* find another way for this */
+/* .other-projects p {
+    width: 13%;
+    outline: 1px solid black;
+} */
